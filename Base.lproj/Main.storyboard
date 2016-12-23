@@ -18,17 +18,31 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lve-vd-yMR" customClass="KNImageButton" customModule="KNImageButton" customModuleProvider="target">
-                                <frame key="frameInset" minX="86" minY="195" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lve-vd-yMR" customClass="KNImageButton" customModule="KNImageButton" customModuleProvider="target">
+                                <frame key="frameInset" minX="75" minY="392" width="240" height="128"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="64" id="C6E-Qs-Xs2"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="image" keyPath="image" value="ic_Like"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="title" value="This button created by Interfacebuilder"/>
+                                </userDefinedRuntimeAttributes>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="lve-vd-yMR" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="57Q-th-gay"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="lve-vd-yMR" secondAttribute="bottom" constant="32" id="ePS-V3-GTD"/>
+                            <constraint firstItem="lve-vd-yMR" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="lZt-94-WvJ"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
     </scenes>
+    <resources>
+        <image name="ic_Like" width="90" height="90"/>
+    </resources>
 </document>

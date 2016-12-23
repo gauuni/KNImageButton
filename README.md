@@ -29,3 +29,10 @@ self.view.addSubview(customButton)
 **Examples** 
 
 A working demonstration is included inside folder.
+
+*
+
+Please give me feedback if you have any issue.
+Thank you for using my repo.
+
+*

@@ -19,7 +19,7 @@ class ViewController: UIViewController {
         customButton.cornerRadius = 10
         customButton.borderColor = UIColor.black
         customButton.borderWidth = 1
-        customButton.title = "This is description for function."
+        customButton.title = "This button created by code"
         customButton.image = #imageLiteral(resourceName: "ic_Like")
         customButton.addTarget(target: self, action: #selector(button_Tapped), for: .touchUpInside)
         
