@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB061C351E0AD557000FB439 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB061C341E0AD557000FB439 /* AppDelegate.swift */; };
+		CB061C371E0AD557000FB439 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB061C361E0AD557000FB439 /* ViewController.swift */; };
+		CB061C3A1E0AD557000FB439 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB061C381E0AD557000FB439 /* Main.storyboard */; };
+		CB061C3C1E0AD557000FB439 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB061C3B1E0AD557000FB439 /* Assets.xcassets */; };
+		CB061C3F1E0AD557000FB439 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB061C3D1E0AD557000FB439 /* LaunchScreen.storyboard */; };
+		CB061C4A1E0AD557000FB439 /* KNImageButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB061C491E0AD557000FB439 /* KNImageButtonTests.swift */; };
+		CB061C551E0AD557000FB439 /* KNImageButtonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB061C541E0AD557000FB439 /* KNImageButtonUITests.swift */; };
+		CB061C631E0AD587000FB439 /* KNImageButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB061C621E0AD587000FB439 /* KNImageButton.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CB061C461E0AD557000FB439 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB061C291E0AD556000FB439 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB061C301E0AD556000FB439;
+			remoteInfo = KNImageButton;
+		};
+		CB061C511E0AD557000FB439 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB061C291E0AD556000FB439 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB061C301E0AD556000FB439;
+			remoteInfo = KNImageButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CB061C311E0AD557000FB439 /* KNImageButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KNImageButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB061C341E0AD557000FB439 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CB061C361E0AD557000FB439 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CB061C391E0AD557000FB439 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CB061C3B1E0AD557000FB439 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CB061C3E1E0AD557000FB439 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CB061C401E0AD557000FB439 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB061C451E0AD557000FB439 /* KNImageButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KNImageButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB061C491E0AD557000FB439 /* KNImageButtonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KNImageButtonTests.swift; sourceTree = "<group>"; };
+		CB061C4B1E0AD557000FB439 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB061C501E0AD557000FB439 /* KNImageButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KNImageButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB061C541E0AD557000FB439 /* KNImageButtonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KNImageButtonUITests.swift; sourceTree = "<group>"; };
+		CB061C561E0AD557000FB439 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB061C621E0AD587000FB439 /* KNImageButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KNImageButton.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB061C2E1E0AD556000FB439 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB061C421E0AD557000FB439 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB061C4D1E0AD557000FB439 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB061C281E0AD556000FB439 = {
+			isa = PBXGroup;
+			children = (
+				CB061C331E0AD557000FB439 /* KNImageButton */,
+				CB061C481E0AD557000FB439 /* KNImageButtonTests */,
+				CB061C531E0AD557000FB439 /* KNImageButtonUITests */,
+				CB061C321E0AD557000FB439 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB061C321E0AD557000FB439 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB061C311E0AD557000FB439 /* KNImageButton.app */,
+				CB061C451E0AD557000FB439 /* KNImageButtonTests.xctest */,
+				CB061C501E0AD557000FB439 /* KNImageButtonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB061C331E0AD557000FB439 /* KNImageButton */ = {
+			isa = PBXGroup;
+			children = (
+				CB061C341E0AD557000FB439 /* AppDelegate.swift */,
+				CB061C361E0AD557000FB439 /* ViewController.swift */,
+				CB061C381E0AD557000FB439 /* Main.storyboard */,
+				CB061C3B1E0AD557000FB439 /* Assets.xcassets */,
+				CB061C3D1E0AD557000FB439 /* LaunchScreen.storyboard */,
+				CB061C401E0AD557000FB439 /* Info.plist */,
+				CB061C621E0AD587000FB439 /* KNImageButton.swift */,
+			);
+			path = KNImageButton;
+			sourceTree = "<group>";
+		};
+		CB061C481E0AD557000FB439 /* KNImageButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				CB061C491E0AD557000FB439 /* KNImageButtonTests.swift */,
+				CB061C4B1E0AD557000FB439 /* Info.plist */,
+			);
+			path = KNImageButtonTests;
+			sourceTree = "<group>";
+		};
+		CB061C531E0AD557000FB439 /* KNImageButtonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CB061C541E0AD557000FB439 /* KNImageButtonUITests.swift */,
+				CB061C561E0AD557000FB439 /* Info.plist */,
+			);
+			path = KNImageButtonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB061C301E0AD556000FB439 /* KNImageButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB061C591E0AD557000FB439 /* Build configuration list for PBXNativeTarget "KNImageButton" */;
+			buildPhases = (
+				CB061C2D1E0AD556000FB439 /* Sources */,
+				CB061C2E1E0AD556000FB439 /* Frameworks */,
+				CB061C2F1E0AD556000FB439 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KNImageButton;
+			productName = KNImageButton;
+			productReference = CB061C311E0AD557000FB439 /* KNImageButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CB061C441E0AD557000FB439 /* KNImageButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB061C5C1E0AD557000FB439 /* Build configuration list for PBXNativeTarget "KNImageButtonTests" */;
+			buildPhases = (
+				CB061C411E0AD557000FB439 /* Sources */,
+				CB061C421E0AD557000FB439 /* Frameworks */,
+				CB061C431E0AD557000FB439 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB061C471E0AD557000FB439 /* PBXTargetDependency */,
+			);
+			name = KNImageButtonTests;
+			productName = KNImageButtonTests;
+			productReference = CB061C451E0AD557000FB439 /* KNImageButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CB061C4F1E0AD557000FB439 /* KNImageButtonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB061C5F1E0AD557000FB439 /* Build configuration list for PBXNativeTarget "KNImageButtonUITests" */;
+			buildPhases = (
+				CB061C4C1E0AD557000FB439 /* Sources */,
+				CB061C4D1E0AD557000FB439 /* Frameworks */,
+				CB061C4E1E0AD557000FB439 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB061C521E0AD557000FB439 /* PBXTargetDependency */,
+			);
+			name = KNImageButtonUITests;
+			productName = KNImageButtonUITests;
+			productReference = CB061C501E0AD557000FB439 /* KNImageButtonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB061C291E0AD556000FB439 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = CANGroup;
+				TargetAttributes = {
+					CB061C301E0AD556000FB439 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					CB061C441E0AD557000FB439 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CB061C301E0AD556000FB439;
+					};
+					CB061C4F1E0AD557000FB439 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CB061C301E0AD556000FB439;
+					};
+				};
+			};
+			buildConfigurationList = CB061C2C1E0AD556000FB439 /* Build configuration list for PBXProject "KNImageButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB061C281E0AD556000FB439;
+			productRefGroup = CB061C321E0AD557000FB439 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB061C301E0AD556000FB439 /* KNImageButton */,
+				CB061C441E0AD557000FB439 /* KNImageButtonTests */,
+				CB061C4F1E0AD557000FB439 /* KNImageButtonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB061C2F1E0AD556000FB439 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB061C3F1E0AD557000FB439 /* LaunchScreen.storyboard in Resources */,
+				CB061C3C1E0AD557000FB439 /* Assets.xcassets in Resources */,
+				CB061C3A1E0AD557000FB439 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB061C431E0AD557000FB439 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB061C4E1E0AD557000FB439 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB061C2D1E0AD556000FB439 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB061C371E0AD557000FB439 /* ViewController.swift in Sources */,
+				CB061C351E0AD557000FB439 /* AppDelegate.swift in Sources */,
+				CB061C631E0AD587000FB439 /* KNImageButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB061C411E0AD557000FB439 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB061C4A1E0AD557000FB439 /* KNImageButtonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB061C4C1E0AD557000FB439 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB061C551E0AD557000FB439 /* KNImageButtonUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CB061C471E0AD557000FB439 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB061C301E0AD556000FB439 /* KNImageButton */;
+			targetProxy = CB061C461E0AD557000FB439 /* PBXContainerItemProxy */;
+		};
+		CB061C521E0AD557000FB439 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB061C301E0AD556000FB439 /* KNImageButton */;
+			targetProxy = CB061C511E0AD557000FB439 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CB061C381E0AD557000FB439 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB061C391E0AD557000FB439 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CB061C3D1E0AD557000FB439 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB061C3E1E0AD557000FB439 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB061C571E0AD557000FB439 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CB061C581E0AD557000FB439 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB061C5A1E0AD557000FB439 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KNImageButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cangroup.io.KNImageButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CB061C5B1E0AD557000FB439 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KNImageButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cangroup.io.KNImageButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		CB061C5D1E0AD557000FB439 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KNImageButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cangroup.io.KNImageButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KNImageButton.app/KNImageButton";
+			};
+			name = Debug;
+		};
+		CB061C5E1E0AD557000FB439 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KNImageButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cangroup.io.KNImageButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KNImageButton.app/KNImageButton";
+			};
+			name = Release;
+		};
+		CB061C601E0AD557000FB439 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = KNImageButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cangroup.io.KNImageButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = KNImageButton;
+			};
+			name = Debug;
+		};
+		CB061C611E0AD557000FB439 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = KNImageButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cangroup.io.KNImageButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = KNImageButton;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB061C2C1E0AD556000FB439 /* Build configuration list for PBXProject "KNImageButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB061C571E0AD557000FB439 /* Debug */,
+				CB061C581E0AD557000FB439 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB061C591E0AD557000FB439 /* Build configuration list for PBXNativeTarget "KNImageButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB061C5A1E0AD557000FB439 /* Debug */,
+				CB061C5B1E0AD557000FB439 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CB061C5C1E0AD557000FB439 /* Build configuration list for PBXNativeTarget "KNImageButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB061C5D1E0AD557000FB439 /* Debug */,
+				CB061C5E1E0AD557000FB439 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CB061C5F1E0AD557000FB439 /* Build configuration list for PBXNativeTarget "KNImageButtonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB061C601E0AD557000FB439 /* Debug */,
+				CB061C611E0AD557000FB439 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB061C291E0AD556000FB439 /* Project object */;
+}
